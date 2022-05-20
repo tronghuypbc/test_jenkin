@@ -6,8 +6,8 @@ def test_add():
     assert result == 5, 'Add succeed'
 
 def test_subtract():
-    result = subtract(4, 1)
-    assert result == 3
+    result = subtract(5, 1)
+    assert result == 4
 
 def test_add_string():
     with pytest.raises(TypeError):
