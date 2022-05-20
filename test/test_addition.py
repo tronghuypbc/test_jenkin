@@ -7,7 +7,7 @@ def test_add():
 
 def test_subtract():
     result = subtract(4, 1)
-    assert result == 3
+    assert result == 2
 
 def test_add_string():
     with pytest.raises(TypeError):
