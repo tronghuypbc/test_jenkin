@@ -6,7 +6,7 @@ def test_add():
     assert result == 5, 'Add succeed'
 
 def test_subtract():
-    result = subtract(5, 1)
+    result = subtract(5, 2)
     assert result == 3
 
 def test_add_string():
