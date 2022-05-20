@@ -3,7 +3,7 @@ import pytest
 
 def test_add():
     result = add(2, 3)
-    assert result == 5, 'Add succeed'
+    assert result == 2, 'Add succeed'
 
 def test_add_string():
     with pytest.raises(TypeError):
